@@ -14,6 +14,8 @@ public class Walls : MonoBehaviour
 
     void Update()
     {
+        if (!gameController.isRunning) return;
+
         gameObject.transform.position += new Vector3(-gameController.gameSpeed*Time.deltaTime, 0, 0);
     }
 }
