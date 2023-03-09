@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         circleCollider.sharedMaterial = pm;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         gameController.score++;
     }
