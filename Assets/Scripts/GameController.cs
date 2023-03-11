@@ -53,3 +53,4 @@ public class GameController : MonoBehaviour
 }
 
 // Change speed progressively
+// Adjust boundaries to display

@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         gameController.score++;
+        gameController.gameSpeed += 0.05f;
     }
 
 }
